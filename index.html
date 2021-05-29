@@ -1,0 +1,35 @@
+<html>
+<head>
+    
+</head>
+
+
+
+<body>
+    <h1> Welcome to the CRUD app !</h1>
+<br>
+    <h1> Create the item</h1>
+    <form action="/dtweet/create" method="POST">
+        <input type="text" placeholder="ID" name="id">
+        <input type="text" placeholder="dweet" name="dtweet">
+        <input type="text" placeholder="posted by" name="postedby">
+        <input type="date" placeholder="posted at" name="postedat">
+        <input type="date" placeholder="last updated at" name="lastupdatedat">
+        <button type="submit">Submit</button>
+    </form>
+
+    <br>
+    <h1> Update the item</h1>
+
+    <form action="/dtweet/update" method="POST">
+        <input type="text" placeholder="ID" name="id">
+        <input type="text" placeholder="dweet" name="dtweet">
+        <input type="text" placeholder="posted by" name="postedby">
+        <input type="date" placeholder="posted at" name="postedat">
+        <input type="date" placeholder="last updated at" name="lastupdatedat">
+        <button type="submit">Submit</button>
+    </form>
+
+   
+</body>
+</html>
